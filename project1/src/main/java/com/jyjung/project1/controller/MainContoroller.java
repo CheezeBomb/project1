@@ -14,6 +14,7 @@ public class MainContoroller {
 		System.out.println("Test");
 		System.out.println("firstupload");
 		System.out.println("branch");
+		System.out.println("workflow");
 		return ResponseEntity.ok("");
 		
 	}
