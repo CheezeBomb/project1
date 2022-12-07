@@ -11,7 +11,8 @@ public class MainContoroller {
 
 	@GetMapping("/test")
 	public ResponseEntity test() {
-		System.out.println("Test");   
+		System.out.println("Test");
+		System.out.println("firstupload");
 		return ResponseEntity.ok("");
 		
 	}
