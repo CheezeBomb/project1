@@ -11,9 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+
 @RestController
 @RequestMapping(value = "/main")
 public class MainContoroller {
+
 
 	@GetMapping("/test")
 	public ResponseEntity test(@RequestParam HashMap request) {
@@ -24,8 +26,9 @@ public class MainContoroller {
 		System.out.println("workflow");
 		HashMap data = new HashMap<>();
 		data.put("data", "data");
+
+		System.out.println("Mac git test");
 		return ResponseEntity.ok(data);
-		
 	}
 	
 	
